@@ -1,2 +1,6 @@
----
-# defaults file for dhrystone
+dhrystone:
+  dhrystone gcc_dhry2:
+    category: 'Performance cpu_sincore sincore_int dhry2'
+    scores_way: 'compute_speed_score 4'
+    command: 'gcc_dhry2'
+    parser: 'dhry2_parser'
